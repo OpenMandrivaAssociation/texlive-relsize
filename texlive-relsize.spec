@@ -46,6 +46,7 @@ commands \larger, \smaller, \textlarger, etc.
 %doc %{_texmfdistdir}/doc/latex/relsize/README
 %doc %{_texmfdistdir}/doc/latex/relsize/relsize-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/relsize/relsize-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ commands \larger, \smaller, \textlarger, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
