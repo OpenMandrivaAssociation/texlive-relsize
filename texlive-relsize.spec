@@ -1,12 +1,12 @@
-# revision 24074
+# revision 30707
 # category Package
 # catalog-ctan /macros/latex/contrib/relsize
-# catalog-date 2011-09-23 08:29:05 +0200
+# catalog-date 2013-05-27 20:07:27 +0200
 # catalog-license pd
-# catalog-version 4
+# catalog-version 4.1
 Name:		texlive-relsize
-Version:	4
-Release:	2
+Version:	4.1
+Release:	1
 Summary:	Set the font size relative to the current font size
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/relsize
@@ -47,17 +47,3 @@ commands \larger, \smaller, \textlarger, etc.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4-2
-+ Revision: 755659
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4-1
-+ Revision: 719449
-- texlive-relsize
-- texlive-relsize
-- texlive-relsize
-- texlive-relsize
-
