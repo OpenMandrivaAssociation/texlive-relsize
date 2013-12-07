@@ -6,7 +6,7 @@
 # catalog-version 4.1
 Name:		texlive-relsize
 Version:	4.1
-Release:	4
+Release:	5
 Summary:	Set the font size relative to the current font size
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/relsize
