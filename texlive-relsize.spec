@@ -1,6 +1,6 @@
 Name:		texlive-relsize
 Version:	30707
-Release:	1
+Release:	2
 Summary:	Set the font size relative to the current font size
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/relsize
