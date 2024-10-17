@@ -3,7 +3,7 @@ Version:	30707
 Release:	2
 Summary:	Set the font size relative to the current font size
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/relsize
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/relsize
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/relsize.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/relsize.doc.r%{version}.tar.xz
